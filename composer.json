@@ -9,15 +9,15 @@
             "email": "crodas@php.net"
         }
     ],
-    "version": "v0.2.0",
+    "version": "v0.2.1",
     "minimum-stability": "stable",
     "autoload": {
         "classmap": [
             "src/"
         ]
     },
-    "requires": {
-        "php": "^8.0"
+    "require": {
+        "php": ">=7.4"
     },
     "require-dev": {
         "crodas/phpunit-compat": "*",
