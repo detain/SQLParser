@@ -62,17 +62,17 @@ class SQLParser_yyToken implements \ArrayAccess
         return $this->string;
     }
 
-    public function offsetExists(mixed $offset): bool
+    public function offsetExists($offset)
     {
         return isset($this->metadata[$offset]);
     }
 
-    public function offsetGet(mixed $offset): mixed
+    public function offsetGet($offset)
     {
         return $this->metadata[$offset];
     }
 
-    public function offsetSet(mixed $offset, mixed $value): void
+    public function offsetSet($offset, $value)
     {
         if (null === $offset) {
             if (isset($value[0])) {
@@ -96,7 +96,7 @@ class SQLParser_yyToken implements \ArrayAccess
         }
     }
 
-    public function offsetUnset(mixed $offset): void
+    public function offsetUnset($offset)
     {
         unset($this->metadata[$offset]);
     }
