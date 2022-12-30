@@ -9,7 +9,7 @@
             "email": "crodas@php.net"
         }
     ],
-    "version": "v0.1.7",
+    "version": "v0.2.0",
     "minimum-stability": "stable",
     "autoload": {
         "classmap": [
@@ -17,11 +17,11 @@
         ]
     },
     "requires": {
-        "php": ">=7.3 || ^8.0"
+        "php": "^8.0"
     },
     "require-dev": {
-        "crodas/phpunit-compat": "^1.7",
-        "fpoirotte/php_parsergenerator": "^0.2.4",
-        "friendsofphp/php-cs-fixer": "^2.18"
+        "crodas/phpunit-compat": "*",
+        "fpoirotte/php_parsergenerator": "*",
+        "friendsofphp/php-cs-fixer": "*"
     }
 }
