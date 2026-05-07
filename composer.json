@@ -1,6 +1,20 @@
 {
     "name": "crodas/sql-parser",
     "description": "Easiest way to parse SQL",
+    "keywords": [
+        "sql",
+        "sql-parser",
+        "dql",
+        "dml",
+        "parser",
+        "query-parser",
+        "php-library",
+        "database",
+        "mysql",
+        "postgres",
+        "laravel",
+        "doctrine"
+    ],
     "type": "library",
     "license": "MIT",
     "authors": [
